@@ -5,9 +5,19 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <div>
+<Section nopadding id="projects">
+  <SectionDivider/>
+  <SectionTitle main>
     Projects
-  </div>
+  </SectionTitle>
+  <GridContainer>
+      {[0,1,2,3,4,5].map((project)=>(
+        <div>
+          {project}
+        </div>
+      ))}
+    </GridContainer>
+</Section>
 );
 
 export default Projects;
