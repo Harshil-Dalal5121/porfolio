@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from './resume_pdf.pdf';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
@@ -15,7 +16,7 @@ const Hero = (props) => {
         <SectionText>
           I am a Web Developer eager to learn new things..💻
         </SectionText>
-        <Button onclick={()=> window.location='resume_pdf.pdf'}>My Resume</Button>
+        <Button onclick={()=> window.location=''}>My Resume</Button>
       </LeftSection>
     </Section>
   );
