@@ -99,7 +99,7 @@ export const ListParagraph = styled.p`
 
 export const ListItem = styled.li`
   max-width: 320px;
-  display: flex;
+  display: flex-row;
   flex-direction: column;
 
 @media ${props => props.theme.breakpoints.md}{
